@@ -927,7 +927,7 @@ img {
       left: -4px; }
   .options-wrap {
     padding-left: 90px; }
-  .options-title {
+  .options h2 {
     color: #fff;
     letter-spacing: 0.7px;
     font-size: 28px;
@@ -957,35 +957,36 @@ img {
       width: 170px;
       left: 0;
       background: #fff; }
-    .options-column__title {
+    .options-column h3 {
       font-size: 18px;
       color: #fff;
       font-family: "Merriweather Bold", sans-serif;
       margin-bottom: 7px;
       font-weight: 600; }
-    .options-column__date {
+    .options-column p {
       font-family: "OpenSansRegular", sans-serif;
       margin-bottom: 24px;
       font-size: 16px;
       color: #fff; }
-    .options-column__info {
+    .options-column div {
       margin-left: 3px;
       border-left: 3px solid #ff487a;
       padding-left: 10px; }
-      .options-column__info-text {
+      .options-column div p {
         padding-left: 5px;
         font-family: "Open Sans Ligh", sans-serif;
         line-height: 1.67;
+        margin-bottom: 0;
         font-size: 12px;
         color: #fff; }
-      .options-column__info-price {
-        font-family: "PT Sans Bold", sans-serif;
-        line-height: 1.08;
-        font-weight: 600;
-        font-size: 50px;
-        color: #fff;
-          color-letter-spacing: -0.2px; }
-      .options-column__info span {
+        .options-column div p:last-child {
+          font-family: "PT Sans Bold", sans-serif;
+          line-height: 1.08;
+          font-weight: 600;
+          font-size: 50px;
+          color: #fff;
+            color-letter-spacing: -0.2px; }
+      .options-column div span {
         font-size: 25px; }
   .options-bottom {
     padding: 11px 0 0 0; }
@@ -1375,7 +1376,7 @@ img {
     width: 100%; }
   #map {
     height: 450px; }
-  .options-title {
+  .options h2 {
     font-size: 22px;
     margin-bottom: 50px; }
   .options-column {
@@ -1519,7 +1520,7 @@ img {
       .tool-column__descr {
         max-width: 380px;
         padding: 5px 0 0 0; }
-  .options-title {
+  .options h2 {
     font-size: 18px; }
   .options-wrap {
     padding-left: 10px; }
