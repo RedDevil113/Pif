@@ -47,5 +47,15 @@ $(document).ready(function(){
 		$('.header-right ul').slideToggle();
 	});
 
+	$(window).scroll(function(){
+		$('.options-column').each(function(){
+			var
+				cPos = $(this).offset().top,
+				topWindow = $(window).scrollTop();
+				if(cPos < topWindow + 300){
+					$(this).addClass('options-column__viz');
+				}
+		});
+	});
 
 });
